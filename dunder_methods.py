@@ -4,13 +4,6 @@ class Dog:
         self.age = age
 
 
-# Create a new Dog object
-my_dog = Dog("Buddy", 3)
-
-print(my_dog.name)  # Buddy
-print(my_dog.age)  # 3
-
-
 class Cat:
     def __init__(self, name):
         self.name = name
@@ -19,4 +12,12 @@ class Cat:
         return f"Cat named {self.name}"
 
 
+# Create a new Dog object
+my_dog = Dog("Buddy", 3)
+
+print(my_dog.name)  # Buddy
+print(my_dog.age)  # 3
+
 print(Cat("Rudy"))  # Cat named Rudy
+
+print(__name__)
